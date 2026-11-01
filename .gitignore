@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Dataset downloads (regenerable)
+data/
+
+# Large experiment artifacts (models, attack checkpoints, feature caches, clustering dumps)
+exp_*/outputs/cache/
+exp_*/outputs/attacks/
+exp_*/outputs/models/
+exp_*/outputs/clusters/
+exp_*/outputs/attacked_servers/
+exp_*/outputs/eval/
+exp_camera/outputs/cifar100/cache/
+exp_camera/outputs/cifar100/attacks/
+exp_camera/outputs/cifar100/models/
+exp_camera/outputs/cifar100/clusters/
+*.pt
+*.pth
+*.ckpt
+*.npz
+
+# Logs
+*.log
+
+# LaTeX build artifacts
+paper/*.aux
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+paper/*.fdb_latexmk
+paper/*.fls
+
+# OS / editor
+.DS_Store
+
+# Generated staging directory for GitHub web upload
+/LASER-upload/
